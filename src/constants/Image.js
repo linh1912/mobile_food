@@ -43,8 +43,8 @@ const Images = {
     Rectangle: require("../assets/img/Rectangle132.png"),
     Rectangle128: require("../assets/img/Rectangle128.png"),
     Rectangle138: require("../assets/img/Rectangle138.png"),
-
-
+    Dieuchinh :require("../assets/img/dieuchinh.png"),
+    Addcart : require ("../assets/img/addcart.png"),
 
 
 

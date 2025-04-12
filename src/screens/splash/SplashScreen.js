@@ -9,7 +9,7 @@ export default function SplashScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigation.replace("OnBoarding"); // Chuyển sang màn hình chính
-    }, 2000); // 2 giây
+    }, 2200); // 2 giây
 
     return () => clearTimeout(timer); // Cleanup timer khi unmount
   }, []);

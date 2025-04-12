@@ -1,0 +1,17 @@
+[
+  { "name": "Sốt bơ", "price": 2.99 },
+  { "name": "Ớt Jalapeño", "price": 3.99 },
+  { "name": "Thịt bò xay", "price": 3.99 },
+  { "name": "Sốt cà chua tươi", "price": 2.99 },
+  { "name": "Kem chua", "price": 2.99 },
+  { "name": "Phô mai Cheddar", "price": 3.49 },
+  { "name": "Ô liu đen", "price": 3.29 },
+  { "name": "Sốt Salsa Verde", "price": 2.99 },
+  { "name": "Vụn thịt xông khói", "price": 3.99 },
+  { "name": "Lát bơ", "price": 3.49 },
+  { "name": "Dưa chuột ngâm", "price": 2.99 },
+  { "name": "Phô mai Mozzarella", "price": 3.49 },
+  { "name": "Hành tím muối", "price": 3.29 },
+  { "name": "Nấm xào", "price": 3.99 },
+  { "name": "Sốt mayonnaise", "price": 2.99 }
+]

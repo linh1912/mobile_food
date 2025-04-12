@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "name": "Món khai vị Mexico",
+    "description": "Một món ăn đặc trưng của ẩm thực Mexico, nổi bật với sự kết hợp hài hòa giữa vị giòn rụm và các lớp topping đậm đà.n.",
+    "price": 50.00,
+    "image": "https://i.imgur.com/AgdwVa3.png",
+    "category": "1",
+    "isNew": true,
+    "isPopular": true,
+    "rating": 5.00,
+    "toppingIds": ["Sốt bơ", "Ớt Jalapeño", "Thịt bò xay", "Sốt cà chua tươi", "Kem chua"]
+  },
+  {
+    "id": "2",
+    "name": "Thịt heo xiên nướng",
+    "description": "Thịt heo ướp thảo mộc và gia vị đậm đà, nướng vàng ươm, ăn kèm nước chấm cay nồng.",
+    "price": 12.99,
+    "image": "https://i.imgur.com/HQq7qyx.png",
+    "category": "1",
+    "isPopular": true,
+    "rating": 4.0,
+    "toppingIds": ["Sốt bơ", "Sốt cà chua tươi", "Hành tím muối", "Kem chua"]
+  },
+  {
+    "id": "3",
+    "name": "Ceviche tôm tươi",
+    "description": "Tôm tươi ướp nước cốt chanh, trộn cùng hành tây giòn, cà chua và rau mùi thơm mát.",
+    "price": 14.50,
+    "image": "https://i.imgur.com/OzKY3Rg.png",
+    "category": "2",
+    "isPopular": true,
+    "rating": 4.8,
+    "toppingIds": ["Ớt Jalapeño", "Sốt cà chua tươi", "Ô liu đen", "Sốt mayonnaise"]
+  },
+  {
+    "id": "4",
+    "name": "Gà Burger",
+    "description": "Ức gà nướng mềm thơm, kẹp cùng xà lách giòn, cà chua tươi và sốt mayonnaise béo ngậy trong bánh mì nướng.",
+    "price": 8.99,
+    "image": "https://i.imgur.com/2DdlV32.png",
+    "category": "2",
+    "isNew": true,
+    "rating": 4.9,
+    "toppingIds": ["Phô mai Cheddar", "Dưa chuột ngâm", "Hành tím muối", "Sốt mayonnaise"]
+  },
+  {
+    "id": "5",
+    "name": "Pizza Pepperoni và Phô mai",
+    "description": "Pizza với lớp phô mai tan chảy, pepperoni cay nồng và sốt cà chua đậm vị.",
+    "price": 6.50,
+    "image": "https://i.imgur.com/Y3BWxM3.png",
+    "category": "2",
+    "rating": 4.3,
+    "toppingIds": ["Phô mai Mozzarella", "Ô liu đen", "Nấm xào", "Vụn thịt xông khói"]
+  },
+  {
+    "id": "6",
+    "name": "Pizza Margherita",
+    "description": "Pizza cổ điển với sốt cà chua, phô mai mozzarella béo ngậy và lá húng quế tươi thơm.",
+    "price": 18.99,
+    "image": "https://i.imgur.com/8EHrY2W.png",
+    "category": "2",
+    "rating": 4.6,
+    "toppingIds": ["Phô mai Mozzarella", "Sốt cà chua tươi", "Ô liu đen", "Hành tím muối"]
+  },
+  {
+    "id": "7",
+    "name": "Lasagna bông cải xanh",
+    "description": "Là món ăn kết hợp giữa hương vị béo ngậy của phô mai, lớp sốt kem mềm mịn và vị thanh mát của bông cải xanh.",
+    "price": 228.99,
+    "image": "https://i.imgur.com/yhs6jq3.png",
+    "category": "2",
+    "rating": 4.6,
+    "toppingIds": ["Phô mai Mozzarella", "Sốt cà chua tươi", "Ô liu đen", "Hành tím muối"]
+  },
+  {
+    "id": "8",
+    "name": "Bánh tacos nướng",
+    "description": "món ăn hấp dẫn với lớp thịt nướng BBQ đậm đà, mềm thơm, được cuộn trong vỏ bánh taco giòn hoặc mềm.",
+    "price": 8.99,
+    "image": "https://i.imgur.com/WlTa5ws.png",
+    "category": "1",
+    "rating": 4.00,
+    "toppingIds": ["Dưa chuột ngâm", "Sốt cà chua tươi", "Ô liu đen", "Hành tím muối"]
+  }
+ 
+]

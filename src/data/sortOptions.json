@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Popular"
+    },
+    {
+      "id": 2,
+      "name": "Price: Low to High"
+    },
+    {
+      "id": 3,
+      "name": "Price: High to Low"
+    },
+    {
+      "id": 4,
+      "name": "Rating"
+    }
+  ]

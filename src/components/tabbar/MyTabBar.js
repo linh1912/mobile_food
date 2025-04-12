@@ -35,7 +35,7 @@ function MyTabBar({ state, descriptors, navigation }) {
         switch (name) {
             case "Home":
                 return Images.Vectoricon;
-            case "Meal":
+            case "food":
                 return Images.Noi;
             case "Favorites":
                 return Images.Heart1;
@@ -117,18 +117,15 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: -2 },
         shadowOpacity: 0.1,
         shadowRadius: 5,
-        gap: 5, // Thêm gap để giảm khoảng cách giữa các tab
-        paddingHorizontal: 10,
-        
-    },
+},
     btnNavigationTab: {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
         height: "100%",
-        marginLeft:0,
-        
-    },
+        marginLeft:15,
+        marginRight:20,
+},
     indicator: {
         position: "absolute",
         top: 0,
@@ -146,4 +143,5 @@ const styles = StyleSheet.create({
         width: 30,
         height: 30,
     },
-});
+}
+);
