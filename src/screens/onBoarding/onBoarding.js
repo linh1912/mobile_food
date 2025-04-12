@@ -64,6 +64,9 @@ const styles = StyleSheet.create({
     transform: [{ scale: 3 }],
   },
   skipContainer: {
+
+    // width: 100,
+    height: 100,
     flexDirection: "row",
     alignItems: "center",
   },

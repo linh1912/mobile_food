@@ -93,7 +93,7 @@ export default function LogIn() {
         <TouchableOpacity>
           <Text style={styles.forgetPassword}>Forget Password</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
+        <TouchableOpacity style={styles.loginButton} onPress={() => navigation.replace("MainTabNavigation")}>
           <Text style={styles.loginButtonText}>Log In</Text>
         </TouchableOpacity>
         <Text style={styles.signUpText}>or sign up with</Text>

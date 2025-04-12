@@ -85,11 +85,17 @@ import OnBoardingC from "../screens/onBoarding/OnBoardingC";
 import LaunchScreen from "../screens/Launch/LaunchScreen";
 import LogIn from "../screens/Launch/LogIn"; // Imported as LogIn
 import SignUp from "../screens/Launch/SignUp"; // Imported as SignUp
+import { StatusBar } from "expo-status-bar"; // Import StatusBar from expo-status-bar
 
 export default function MainStackNavigation() {
   const Stack = createStackNavigator();
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <>
+      <StatusBar
+        translucent
+        backgroundColor="transparent"
+        // barStyle="light-content" // hoặc "light-content" tùy màu nền bạn
+      />
       <Stack.Navigator initialRouteName="SplashScreen">
         <Stack.Screen
           name="SplashScreen"
@@ -141,8 +147,8 @@ export default function MainStackNavigation() {
           name="Profile"
           component={AboutScreen}
           options={{ headerShown: false }}
-        />
+        />   
       </Stack.Navigator>
-    </SafeAreaView>
+    </>
   );
 }

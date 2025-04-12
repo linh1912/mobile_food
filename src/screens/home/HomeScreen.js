@@ -6,7 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 export default function HomeScreen() {
     const navigation = useNavigation();
   return (
-    
+    <SafeAreaView style={styles.container}>
     <ScrollView style={styles.containerHome}>
     {/* <SafeAreaView style={styles.container}> */}
         {/* Search Bar and Icons */}
@@ -130,7 +130,8 @@ export default function HomeScreen() {
       </View>
       </View>
     {/* </SafeAreaView> */}
-    </ScrollView>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
@@ -140,7 +141,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5CB58", // Màu nền vàng nhạt
   },
   container:{
-    flex:1
+    flex: 1,
+    backgroundColor: "#F5CB58"
   },
   content:{
     flexGrow: 1,
