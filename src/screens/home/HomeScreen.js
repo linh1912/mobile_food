@@ -36,8 +36,14 @@ export default function HomeScreen() {
   };
 
   return (
+<<<<<<< HEAD
     <SafeAreaView style={styles.safeArea}>
       <ScrollView style={styles.containerHome}>
+=======
+    <SafeAreaView style={styles.container}>
+    <ScrollView style={styles.containerHome}>
+    {/* <SafeAreaView style={styles.container}> */}
+>>>>>>> 50711dd799a4d57afd58a49444dc681c87120dc2
         {/* Search Bar and Icons */}
         <View style={styles.headerTop}>
           <View style={styles.inputtext}>
@@ -189,6 +195,20 @@ export default function HomeScreen() {
             </View>
           </View>
         </View>
+<<<<<<< HEAD
+=======
+        <View style={styles.recommendItem}>
+          <Image source={Images.SpringRollsImage} style={styles.recommendImage} resizeMode="cover" />
+          
+          <View style={styles.likesContainer}>
+            <Image source={Images.HeartIcon} style={styles.heartIcon} resizeMode="contain" />
+            
+          </View>
+        </View>
+      </View>
+      </View>
+    {/* </SafeAreaView> */}
+>>>>>>> 50711dd799a4d57afd58a49444dc681c87120dc2
       </ScrollView>
     </SafeAreaView>
   );
@@ -202,7 +222,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#F5CB58",
   },
+<<<<<<< HEAD
   content: {
+=======
+  container:{
+    flex: 1,
+    backgroundColor: "#F5CB58"
+  },
+  content:{
+>>>>>>> 50711dd799a4d57afd58a49444dc681c87120dc2
     flexGrow: 1,
     backgroundColor: "#FFF",
     borderTopLeftRadius: 30,

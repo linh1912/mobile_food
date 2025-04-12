@@ -68,6 +68,9 @@ const styles = StyleSheet.create({
     resizeMode: "cover", // Hoặc "contain" tùy ý
   },
   skipContainer: {
+
+    // width: 100,
+    height: 100,
     flexDirection: "row",
     alignItems: "center",
   },

@@ -8,14 +8,25 @@ import OnBoarding from "../screens/onBoarding/onBoarding";
 import OnboardingB from "../screens/onBoarding/onboardingb";
 import OnBoardingC from "../screens/onBoarding/OnBoardingC";
 import LaunchScreen from "../screens/Launch/LaunchScreen";
+<<<<<<< HEAD
 import LogIn from "../screens/Launch/LogIn";
 import SignUp from "../screens/Launch/SignUp";
 import SnackDetailScreen from "../screens/cate/SnackDetailScreen"; // Thêm SnackDetailScreen
+=======
+import LogIn from "../screens/Launch/LogIn"; // Imported as LogIn
+import SignUp from "../screens/Launch/SignUp"; // Imported as SignUp
+import { StatusBar } from "expo-status-bar"; // Import StatusBar from expo-status-bar
+>>>>>>> 50711dd799a4d57afd58a49444dc681c87120dc2
 
 export default function MainStackNavigation() {
   const Stack = createStackNavigator();
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <>
+      <StatusBar
+        translucent
+        backgroundColor="transparent"
+        // barStyle="light-content" // hoặc "light-content" tùy màu nền bạn
+      />
       <Stack.Navigator initialRouteName="SplashScreen">
         <Stack.Screen
           name="SplashScreen"
@@ -61,13 +72,17 @@ export default function MainStackNavigation() {
           name="Profile"
           component={AboutScreen}
           options={{ headerShown: false }}
+<<<<<<< HEAD
         />
         <Stack.Screen
           name="SnackDetail"
           component={SnackDetailScreen}
           options={{ headerShown: false }}
         />
+=======
+        />   
+>>>>>>> 50711dd799a4d57afd58a49444dc681c87120dc2
       </Stack.Navigator>
-    </SafeAreaView>
+    </>
   );
 }
